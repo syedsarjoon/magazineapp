@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">E flip magazine</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="home">Home</string>
+    <string name="About">About</string>
+    <string name="Editions">Editions</string>
+    <string name="ContactUs">ContactUs</string>
+</resources>
