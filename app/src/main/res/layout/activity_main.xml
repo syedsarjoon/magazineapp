@@ -8,66 +8,71 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-   <RelativeLayout
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:background="@drawable/backgroundspaceimg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundspaceimg">
 
-       <ImageView
-           android:id="@+id/logo"
-           android:layout_marginTop="45dp"
-           android:layout_width="280dp"
-           android:layout_height="180dp"
-           android:src="@drawable/eflipbooktopimg"
-           android:layout_alignParentEnd="true"
-           android:layout_alignParentRight="true"></ImageView>
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="280dp"
+            android:layout_height="180dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/eflipbooktopimg"></ImageView>
 
-       <Button
-           android:id="@+id/subcribe_btn"
-           android:layout_width="150dp"
-           android:layout_height="45dp"
-           android:layout_marginTop="190dp"
-           android:background="@drawable/btn_rounded"></Button>
+        <Button
+            android:id="@+id/subcribe_btn"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/btn_rounded"></Button>
 
-       <Button
-           android:id="@+id/campuss_amb"
-           android:layout_width="150dp"
-           android:layout_height="45dp"
-           android:background="@drawable/btn_rounded"
-           android:layout_marginTop="6dp"
-           android:layout_below="@+id/subcribe_btn"
-           android:layout_toEndOf="@+id/subcribe_btn"
-           android:layout_toRightOf="@+id/subcribe_btn"></Button>
+        <Button
+            android:id="@+id/campuss_amb"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/subcribe_btn"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@+id/subcribe_btn"
+            android:layout_toRightOf="@+id/subcribe_btn"
+            android:background="@drawable/btn_rounded"></Button>
 
-       <Button
-           android:layout_width="150dp"
-           android:layout_height="45dp"
-           android:background="@drawable/btn_rounded"
-           android:layout_below="@id/campuss_amb"
-           android:layout_marginTop="10dp"
-           android:layout_marginLeft="220dp"></Button>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/campuss_amb"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_rounded"></Button>
 
-       <Button
-           android:id="@+id/publish_btn"
-           android:layout_width="150dp"
-           android:layout_height="45dp"
-           android:layout_marginTop="350dp"
-           android:layout_toRightOf="@id/subcribe_btn"
-           android:background="@drawable/btn_rounded"></Button>
+        <Button
+            android:id="@+id/publish_btn"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="350dp"
+            android:layout_toRightOf="@id/subcribe_btn"
+            android:background="@drawable/btn_rounded"></Button>
+
+        <Button
+            android:id="@+id/ad_btn"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/publish_btn"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/btn_rounded"></Button>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
 
-       <androidx.appcompat.widget.Toolbar
-           android:id="@+id/toolbar"
-           android:background="@color/colorPrimary"
-           android:theme="@style/ThemeOverlay.AppCompat.Dark"
-           android:layout_width="match_parent"
-           android:layout_height="?attr/actionBarSize">
-
-
-
-
-       </androidx.appcompat.widget.Toolbar>
-   </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </RelativeLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigation_view"

@@ -20,13 +20,12 @@
         android:title="@string/ContactUs"/>
     <item
         android:id="@+id/oursocialpage"
-        android:icon="@drawable/socialmedia"
+        android:icon="@drawable/webicon"
         android:title="Our Social Pages"
         android:viewportHeight="34.0"
         android:viewportWidth="34.0"
         android:width="34dp"
-        app:actionViewClass="android.widget.ImageView"
-        ></item>
+        app:actionViewClass="android.widget.ImageView"/>
 
 
 </menu>

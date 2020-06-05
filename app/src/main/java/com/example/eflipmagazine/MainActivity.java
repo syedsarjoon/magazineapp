@@ -69,10 +69,16 @@ public class MainActivity extends AppCompatActivity {
 
                 case R.id.nav_Editions:
                     Intent intent2 = new Intent(this,Editions.class);
+                    startActivity(intent2);
                     break;
 
                 case R.id.nav_ContactUs:
                     Intent intent3 = new Intent(this,Contactus.class);
+                    startActivity(intent3);
+                    break;
+                case R.id.oursocialpage:
+                    Intent intent4 = new Intent(this,social_page.class);
+                    startActivity(intent4);
                     break;
 
         }}
