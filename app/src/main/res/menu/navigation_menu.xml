@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/nav_home"
@@ -17,6 +18,15 @@
         android:id="@+id/nav_ContactUs"
         android:icon="@drawable/contactus"
         android:title="@string/ContactUs"/>
+    <item
+        android:id="@+id/oursocialpage"
+        android:icon="@drawable/socialmedia"
+        android:title="Our Social Pages"
+        android:viewportHeight="34.0"
+        android:viewportWidth="34.0"
+        android:width="34dp"
+        app:actionViewClass="android.widget.ImageView"
+        ></item>
 
 
 </menu>

@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -57,15 +58,21 @@ public class MainActivity extends AppCompatActivity {
     public void UserMenuSelected(MenuItem menuItem){
             switch (menuItem.getItemId()){
                 case R.id.nav_home:
+                    Intent intent = new Intent(this,MainActivity.class);
+                    startActivity(intent);
                     break;
 
                 case R.id.nav_About:
+                    Intent intent1 = new Intent(this,About.class);
+                    startActivity(intent1);
                     break;
 
                 case R.id.nav_Editions:
+                    Intent intent2 = new Intent(this,Editions.class);
                     break;
 
                 case R.id.nav_ContactUs:
+                    Intent intent3 = new Intent(this,Contactus.class);
                     break;
 
         }}
