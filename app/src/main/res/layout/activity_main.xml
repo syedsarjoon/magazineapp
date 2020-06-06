@@ -12,21 +12,13 @@
        android:layout_width="match_parent"
        android:layout_height="match_parent"
        android:background="@drawable/backgroundspaceimg">
-
-       <ImageView
-           android:id="@+id/logo"
-           android:layout_marginTop="45dp"
-           android:layout_width="280dp"
-           android:layout_height="180dp"
-           android:src="@drawable/eflipbooktopimg"
-           android:layout_alignParentEnd="true"
-           android:layout_alignParentRight="true"></ImageView>
-
        <Button
            android:id="@+id/subcribe_btn"
            android:layout_width="150dp"
            android:layout_height="45dp"
            android:layout_marginTop="190dp"
+           android:text="Subscribe to E Flip"
+           android:textStyle="italic"
            android:background="@drawable/btn_rounded"></Button>
 
        <Button
@@ -34,6 +26,8 @@
            android:layout_width="150dp"
            android:layout_height="45dp"
            android:background="@drawable/btn_rounded"
+           android:text="Campus Ambassador"
+           android:textStyle="italic"
            android:layout_marginTop="6dp"
            android:layout_below="@+id/subcribe_btn"
            android:layout_toEndOf="@+id/subcribe_btn"
@@ -43,6 +37,8 @@
            android:layout_width="150dp"
            android:layout_height="45dp"
            android:background="@drawable/btn_rounded"
+           android:text="Publish Your Article here"
+           android:textStyle="italic"
            android:layout_below="@id/campuss_amb"
            android:layout_marginTop="10dp"
            android:layout_marginLeft="220dp"></Button>
@@ -51,9 +47,30 @@
            android:id="@+id/publish_btn"
            android:layout_width="150dp"
            android:layout_height="45dp"
+           android:text="QUIZ"
+           android:textStyle="italic"
+           android:textSize="16dp"
            android:layout_marginTop="350dp"
            android:layout_toRightOf="@id/subcribe_btn"
-           android:background="@drawable/btn_rounded"></Button>
+           android:background="@drawable/btn_rounded">
+
+       </Button>
+       <Button
+           android:layout_width="150dp"
+           android:layout_height="45dp"
+           android:background="@drawable/btn_rounded"
+           android:text="Advertise With E Flip"
+           android:textStyle="italic"
+           android:layout_marginTop="400dp"
+           android:layout_marginLeft="150dp"></Button>
+       <Button
+           android:layout_width="150dp"
+           android:layout_height="45dp"
+           android:background="@drawable/btn_rounded"
+           android:text="Internships"
+           android:textStyle="italic"
+           android:layout_marginTop="450dp"
+           android:layout_marginLeft="200dp"></Button>
 
 
        <androidx.appcompat.widget.Toolbar
@@ -64,9 +81,18 @@
            android:layout_height="?attr/actionBarSize">
 
 
-
-
        </androidx.appcompat.widget.Toolbar>
+       <ImageView
+           android:layout_width="220dp"
+           android:layout_height="230dp"
+           android:src="@drawable/pcsartefliplogo"
+           android:layout_marginLeft="13dp"></ImageView>
+       <ImageView
+           android:layout_width="150dp"
+           android:layout_height="130dp"
+           android:src="@drawable/eflipmagbook"
+           android:layout_marginTop="250dp"
+           android:layout_marginLeft="10dp"></ImageView>
    </RelativeLayout>
 
     <com.google.android.material.navigation.NavigationView
