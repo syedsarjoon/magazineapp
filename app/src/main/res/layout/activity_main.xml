@@ -34,6 +34,7 @@
            android:layout_toRightOf="@+id/subcribe_btn"></Button>
 
        <Button
+           android:id="@+id/publish_btn"
            android:layout_width="150dp"
            android:layout_height="45dp"
            android:background="@drawable/btn_rounded"
@@ -44,7 +45,7 @@
            android:layout_marginLeft="220dp"></Button>
 
        <Button
-           android:id="@+id/publish_btn"
+           android:id="@+id/quiz_btn"
            android:layout_width="150dp"
            android:layout_height="45dp"
            android:text="QUIZ"
@@ -52,25 +53,30 @@
            android:textSize="16dp"
            android:layout_marginTop="350dp"
            android:layout_toRightOf="@id/subcribe_btn"
-           android:background="@drawable/btn_rounded">
+           android:background="@drawable/btn_rounded"></Button>
 
-       </Button>
        <Button
+           android:id="@+id/ad_btn"
            android:layout_width="150dp"
            android:layout_height="45dp"
            android:background="@drawable/btn_rounded"
            android:text="Advertise With E Flip"
+           android:layout_below="@+id/intern"
            android:textStyle="italic"
-           android:layout_marginTop="400dp"
-           android:layout_marginLeft="150dp"></Button>
+           android:layout_marginTop="10dp"
+           android:layout_toRightOf="@id/subcribe_btn"></Button>
+
+
        <Button
+           android:id="@+id/intern"
            android:layout_width="150dp"
            android:layout_height="45dp"
            android:background="@drawable/btn_rounded"
            android:text="Internships"
            android:textStyle="italic"
-           android:layout_marginTop="450dp"
-           android:layout_marginLeft="200dp"></Button>
+           android:layout_below="@+id/quiz"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="220dp"></Button>
 
 
        <androidx.appcompat.widget.Toolbar
