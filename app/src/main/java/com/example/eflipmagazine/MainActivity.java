@@ -140,8 +140,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
                 case R.id.nav_Editions:
-                    Intent intent2 = new Intent(this,Editions.class);
-                    startActivity(intent2);
+
                     break;
 
                 case R.id.nav_ContactUs:
